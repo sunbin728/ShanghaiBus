@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">上海公交</string>
+    <string name="action_settings">设置</string>
+    <string name="about">关于</string>
+    <string name="info">版本: 1.0\n邮箱: sunbin728@126.com</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

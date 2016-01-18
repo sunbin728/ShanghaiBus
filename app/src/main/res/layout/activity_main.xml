@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#201f1f">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:text="上海公交实时查询"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:textColor="#ffffffff"
+            android:textSize="20dp"/>
+        <Space
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/history"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/history"
+            />
+
+    </LinearLayout>
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </WebView>
+</LinearLayout>
